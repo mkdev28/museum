@@ -14,6 +14,7 @@ function App() {
   const currentExhibits = exhibit[activeHall] || [];
 
   const handleExhibitClick = (exhibit) => {
+    console.log("card clicked")
     setSelectedExhibit(exhibit);
   };
 

@@ -2,11 +2,11 @@ import { Calendar} from 'lucide-react'
 
 import React from 'react'
 
-function ExhibitCard({exhibit , onclick}) {
+function ExhibitCard({exhibit , onClick}) {
   return (
     <div className='bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition-all
      duration-300 transform hover:-translate-y-2 cursor-pointer overflow-hidden group'
-    onclick={onclick}
+    onClick={onClick}
     >
         {/* Image Section */}
         <div className='relative overflow-hidden'>
